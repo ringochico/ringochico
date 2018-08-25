@@ -1,12 +1,10 @@
 body {
   background-color: #5ADDE4;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Cabin", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+
+  font-family: Cabin ,sans-serif;
   padding: 18vh 1rem;
   text-align: center;
+  color: white;
 
 }
 
@@ -29,4 +27,66 @@ a {
 .responsive {
     width: 100%;
     height: auto;
+}
+.icons {
+  font-size: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 9%;
+}
+.blue-wrapper {
+  background-color: #5ADDE4;
+  color: red;
+}
+.white-wrapper {
+
+}
+.computer {
+  font-size: 2vh;
+}
+.projects {
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.projects:hover {
+  opacity: .7;
+}
+
+.content {
+  background-color: #59dde4;
+  width: 57%;
+  margin: auto;
+}
+
+.zoom {
+    padding: 3%;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+  }
+
+.information {
+  padding-top: 25%;
+}
+
+.btn-treehouse {
+     color: white;
+    padding: 1% 2%;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #1b4244;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3a8488;
+  text-decoration: none;
+  color: white;
 }
