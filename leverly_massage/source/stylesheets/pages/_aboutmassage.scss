@@ -1,0 +1,33 @@
+.container-content-about {
+
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 39px;
+
+}
+
+.about-masseuse {
+  text-align: justify;
+  h1 {
+    text-align: center;
+  }
+}
+.massage-info{
+  text-align: center;
+
+
+}
+
+.massage-list {
+  justify-content: space-between;
+  display: flex;
+
+    li {
+      font-size: 20px;
+      font-weight: bolder;
+      font-color: aqua;
+    }
+}
+.massage-description {
+  width: 30%;
+}
